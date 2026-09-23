@@ -1,2 +1,2 @@
-# to-print-1-100-numbers
+# loop control instructions
 done using for loop cmd
