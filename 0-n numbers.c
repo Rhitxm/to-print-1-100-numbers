@@ -14,3 +14,17 @@ int main() {
    
     return 0;
 }
+// doing the same thing using for loop
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("enter number:");
+    scanf("%d", &n);
+    int i;
+    for(i=0; i<=n; i++){
+        printf("%d\n", i);
+    }
+   
+    return 0;
+}
