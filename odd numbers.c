@@ -14,3 +14,14 @@ int main() {
     printf("thank you!");
     return 0;
 }
+// print all the odd numbers from 0 to 50
+#include <stdio.h>
+
+int main() {
+    for( int i=5; i<=50; i++){
+        if(i%2!=0){
+            printf("%d\n", i);
+        }
+    }
+    return 0;
+}
