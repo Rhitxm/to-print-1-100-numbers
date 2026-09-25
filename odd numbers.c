@@ -25,3 +25,20 @@ int main() {
     }
     return 0;
 }
+//program to print odd numbers in a range
+#include <stdio.h>
+int main(){
+    int n;
+    printf("enter your first number:\n");
+    scanf("%d", &n);
+    int m;
+    printf("enter your last number:\n");
+    scanf("%d", &m);
+    int  i;
+    for(int i=n; i<=m; i++){
+       if(i%2!=0){
+           printf("%d\n", i);
+       }
+    }
+    return 0;
+}
